@@ -36,3 +36,31 @@ h1{
 	color: white;
 	background-color: purple;
 }
+
+ul{
+	background-color: yellow;
+}
+
+h3{
+	background-color: #66ccff;
+}
+
+@media (max-width: 450px){
+	body{
+		background: black;
+	}
+}
+.container{
+    width:100%;
+    height: auto;
+    background: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+	width: 20px;
+	height: 10px;
+	margin: 20px;
+	background: gray;
+}
