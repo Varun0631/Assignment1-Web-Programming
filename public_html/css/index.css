@@ -1,0 +1,38 @@
+
+body{
+	border: 2px solid blue;
+	background-color: lime;
+	padding: 20px;
+}
+
+.container{
+	
+}
+
+#dv1, #dv2, #dv3{
+	display: none;
+}
+
+#correct {
+	display: none;
+	color: green;
+	font-size: 1.3eM;
+}
+
+#wrong{
+	display: none;
+	color: red;
+	font-size: 1.3eM;
+}
+#score {
+	display: none;
+	color: silver;
+	font-weight: bold;
+	font-size: 2eM;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	background-color: purple;
+}
